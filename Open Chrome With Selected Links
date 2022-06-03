@@ -1,0 +1,13 @@
+on run {input, parameters}
+	set urls to {"<Link 1>", "<Link 2>", " <Link 3>"}
+	tell application "System Events"
+		tell application "Google Chrome"
+			make new window
+			activate
+			repeat with aUrl in urls
+				tell application "Google Chrome" to open location aUrl
+			end repeat
+		end tell
+	end tell
+	return input
+end run
