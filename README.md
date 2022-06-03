@@ -25,6 +25,7 @@ Steps:
 >You should see your new shortcut that you have created. <br />
 >Assign your new shortcut a keyboard shortcuts and ensure that it is selected. <br />
 
+7) Now test your shortcut by pressing the keyboardshortcut and grant any permissions requested. 
         
        
         
