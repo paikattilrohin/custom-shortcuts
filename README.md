@@ -15,7 +15,21 @@ Steps:
 
 
 4) Change your script {* Your script goes here *} to for example 
-  https://github.com/paikattilrohin/custom-shortcuts/blob/master/open_chrome
+To create a shortcut to Open Chrome 
+```
+on run {input, parameters}
+	
+	tell application "System Events"
+	  tell application "Google Chrome"
+	    make new window
+    	activate
+	  end tell
+	end tell
+	
+	return input
+end run
+  ```
+Or use one of the other examples 
 
 5) Save your script to something unique which you can remember.
 
